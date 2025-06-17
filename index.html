@@ -3,44 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=PT+Mono&family=Playwrite+RO:wght@100..400&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:40, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>🌤️ 12°C</div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/AbimbolaOshin" target="_blank"
-        >Abimbola Oshin
-      </a>
-      hosted
-      <a
-        href="https://github.com/AbimbolaOshin?tab=repositories"
-        target="_blank"
-        >on Github</a
-      >
-      and website hosted
-      <a
-        href="https://app.netlify.com/teams/abimbolaoshin/projects"
-        target="_blank"
-      >
-        on Netlify.</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city" required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:40, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>🌤️ 12°C</div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/AbimbolaOshin" target="_blank"
+          >Abimbola Oshin
+        </a>
+        hosted
+        <a
+          href="https://github.com/AbimbolaOshin?tab=repositories"
+          target="_blank"
+          >on Github</a
+        >
+        and website hosted
+        <a
+          href="https://app.netlify.com/teams/abimbolaoshin/projects"
+          target="_blank"
+        >
+          on Netlify.</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
